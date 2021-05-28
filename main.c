@@ -4,7 +4,6 @@
 #include <wiringPiSPI.h>
 #include <errno.h>
 #include "define.h"
-#include "ReadWrite_MCP3208.h"
 
 int main (void) {
   int MCP3208_value = 0;
