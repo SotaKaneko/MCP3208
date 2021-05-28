@@ -1,5 +1,3 @@
-#include "define.h"
-
 int ReadWrite_MCP3208 (unsigned char MCP3208_Channel) {
   unsigned char buffer[3];
   int MCP3208Value = 0;
